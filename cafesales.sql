@@ -164,7 +164,7 @@ SELECT
 	GROUP BY FORMAT(Transaction_Date, 'yyyy-MM')
 	ORDER BY 2  DESC;
 
-	SELECT 
+SELECT 
     YEAR(Transaction_Date) AS Year,
     MONTH(Transaction_Date) AS Month,
     SUM(Total_Spent) AS Monthly_Sales
